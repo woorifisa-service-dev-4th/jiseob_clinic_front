@@ -10,23 +10,32 @@ export async function fetchOwners(lastName = "", page = 1) {
     const res = await fetch(url);
     const data = await res.json();
 
-    console.log("API 응답 데이터:", data); // 응답 구조 확인
+    console.log("API 응답 데이터:", data); 
 
     if (!res.ok) {
         throw new Error(`서버 오류: ${res.status}`);
     }
 
     return {
-        owners: data.owners || [], // owners 목록
-        totalPages: data.totalPages || 1, // 총 페이지 수 반영
+        owners: data.owners || [], 
+        totalPages: data.totalPages || 1,
     };
+}
+
+//Owner삭제시 조회할때 쓰이는 api
+export async function fetchOwnerById(ownerId) {
+    const res = await fetch(`${API_URL}/${ownerId}`);
+    if (!res.ok) {
+        throw new Error(`서버 오류: ${res.status}`);
+    }
+    return res.json();
 }
 
 
 
 // Owner 추가 (응답 확인 추가)
 export async function addOwner(ownerData) {
-    console.log("전송할 데이터:", JSON.stringify(ownerData)); // 확인용 로그
+    console.log("전송할 데이터:", JSON.stringify(ownerData)); 
 
     const res = await fetch(API_URL, {
         method: "POST",
@@ -34,7 +43,7 @@ export async function addOwner(ownerData) {
         body: JSON.stringify(ownerData),
     });
 
-    const data = await res.json(); // 응답 데이터를 받아서 확인
+    const data = await res.json(); 
     console.log("서버 응답:", data);
 
     if (!res.ok) {
