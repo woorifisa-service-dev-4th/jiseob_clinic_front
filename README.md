@@ -26,7 +26,7 @@
 ```
 ## 3. owner page
 - 1번 Owner 전체 조회
-  <img width="1300" alt = "image" src= "https://github.com/user-attachments/assets/489537a2-9e82-4021-a607-3fe1fb11f21e" />
+  <img width="500" alt = "image" src= "https://github.com/user-attachments/assets/489537a2-9e82-4021-a607-3fe1fb11f21e" />
 
 - 2번 Owner lastName을 이용한 조회
   <img width="1300" alt = "image" src= "https://github.com/user-attachments/assets/7590f7d2-5acb-4f90-8dba-d568844bbf45" />
