@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 지섭이의 동물병원
 
-## Getting Started
+## 1. swagger
+<img width="1421" alt="image" src="https://github.com/user-attachments/assets/a8d61800-8b13-4dc9-b409-889dc7763046" />
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 2. 폴더 구조
 ```
+📦 프로젝트 루트 (Next.js Root)
+├── 📂 app/
+│   ├── 📂 owners/
+│   │   ├── 📂 [ownerId]/ #
+│   │   │   ├──  📂 edit/ #
+│   │   │   │    ├── 📜 page.js   # 
+│   │   ├── 📂 new/       # 
+│   │   │   ├── 📜 page.js   # 
+│   ├── 📂 pet/           # Pet 관련 페이지
+│   │   ├── 📂 [ownerId]/ # 특정 Owner의 Pet 목록, 수정 등
+│   │   │   ├── 📜 page.js   # 특정 `ownerId`의 Pet 목록 조회 & 수정 기능
+│   ├── 📜 layout.js      # 전체 앱 레이아웃 (공통 레이아웃 설정)
+│   ├── 📜 page.js        # 홈 페이지 (기본 메인 화면)
+│
+├── 📂 components/        # UI 컴포넌트 모음
+│   ├── 📜 AddPet.js      # 🐾 Pet 추가 모달 컴포넌트
+│   ├── 📜 EditPet.js     # ✏️ Pet 수정 모달 컴포넌트
+├──
+```
+## 3. owner page
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 4. pet page
+- 1번 owner의 pet 조회
+<img width="1435" alt="image" src="https://github.com/user-attachments/assets/bb8299a5-4251-4737-9a23-05922ba3ac8d" />
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- pet 정보 수정
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/9d53bfb1-3e05-4e2e-8e6d-840ae8172625" />
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- pet 추가
+<img width="1435" alt="image" src="https://github.com/user-attachments/assets/69b33c85-77b8-4baf-82c0-cf54e6f2890c" />
 
-## Learn More
+- pet Type 조회
+<img width="1427" alt="image" src="https://github.com/user-attachments/assets/b45bea55-9f04-40f9-ad7f-aa2db86f7307" />
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
