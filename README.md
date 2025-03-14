@@ -25,25 +25,24 @@
 ├──
 ```
 ## 3. owner page
+
+
 - 1번 Owner 전체 조회
   <br>
-  <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/489537a2-9e82-4021-a607-3fe1fb11f21e" />
+  <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/580ccdf1-3eee-4ebd-82fb-b6e582472e3a" />
 
 - 2번 Owner lastName을 이용한 조회
   <br>
-  <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/7590f7d2-5acb-4f90-8dba-d568844bbf45" />
+  <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/214a3404-d5d8-4821-800b-46512ad7ebae" />
 
 - 3번 Owner 수정
+
   <br>
-  <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/08d7fe15-f773-4937-be86-12743531ec83" />
-  <br>
-  <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/43761fd5-3c86-4a53-8f5a-ddad3fcbb496" />
+  <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/da676325-2a8e-4ed8-9418-10d8f44d4306" />
 
 - 4번 owner 추가
   <br>
-  <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/f7c5c2d0-1fd7-4ba2-806f-a85ad4a0a4f0" />
-  <br>
-  <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/f2aaa92d-0a2d-4b12-b2ab-3f0e6730957e" />
+  <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/8e368635-f066-4780-8dbe-8c78c24ca8a5" />
 
 
 
