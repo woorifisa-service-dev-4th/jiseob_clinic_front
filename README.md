@@ -24,6 +24,9 @@
 │   ├── 📜 EditPet.js     # ✏️ Pet 수정 모달 컴포넌트
 ├──
 ```
+
+<br />
+
 ## 3. owner page
 
 
@@ -39,7 +42,6 @@
 - 4번 owner 추가 (~/owners/new)
   <br>
   <img width="700" alt = "image" src= "https://github.com/user-attachments/assets/8e368635-f066-4780-8dbe-8c78c24ca8a5" />
-
 
 
 ## 4. pet page
