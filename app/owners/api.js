@@ -1,10 +1,28 @@
 export const API_URL = "http://localhost:8080/api/owners";
 
-// Owner 목록 조회
-export async function fetchOwners() {
-    const res = await fetch(API_URL);
-    return res.json();
+export async function fetchOwners(lastName = "", page = 1) {
+    const url = new URL(API_URL);
+    if (lastName) url.searchParams.append("lastName", lastName);
+    url.searchParams.append("page", page);
+
+    console.log("API 요청 URL:", url.toString());
+
+    const res = await fetch(url);
+    const data = await res.json();
+
+    console.log("API 응답 데이터:", data); // 응답 구조 확인
+
+    if (!res.ok) {
+        throw new Error(`서버 오류: ${res.status}`);
+    }
+
+    return {
+        owners: data.owners || [], // owners 목록
+        totalPages: data.totalPages || 1, // 총 페이지 수 반영
+    };
 }
+
+
 
 // Owner 추가 (응답 확인 추가)
 export async function addOwner(ownerData) {
