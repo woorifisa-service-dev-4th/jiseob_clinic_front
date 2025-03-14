@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/92b9e761-3def-44b8-ae35-dc9d6a9dc74e)# 지섭이의 동물병원
+# 지섭이의 동물병원
 
 ## 1. swagger
 <img width="1421" alt="image" src="https://github.com/user-attachments/assets/a8d61800-8b13-4dc9-b409-889dc7763046" />
