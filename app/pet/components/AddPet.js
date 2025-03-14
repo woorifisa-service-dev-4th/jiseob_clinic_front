@@ -26,7 +26,7 @@ export default function AddPet({ ownerId, onClose }) {
     e.preventDefault();
 
     if (!petData.type) {
-      alert("Please select a pet type.");
+      alert("펫 타입을 선택 해 주세요");
       return;
     }
 
@@ -34,7 +34,7 @@ export default function AddPet({ ownerId, onClose }) {
       await axios.post(`${API_BASE_URL}/${ownerId}`, petData, {
         headers: { "Content-Type": "application/json" },
       });
-      alert("Pet added successfully!");
+      alert("✅ 펫 추가 성공 !");
       onClose(); 
     } catch (error) {
       console.error("Error adding pet:", error);
