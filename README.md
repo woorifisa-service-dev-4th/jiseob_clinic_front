@@ -27,31 +27,31 @@
 ## 3. owner page
 
 
-- 1번 Owner 전체 조회
+- 1번 Owner 전체 조회 (~/owners)
   <br>
   <img width="700" alt = "image" src= "https://github.com/user-attachments/assets/580ccdf1-3eee-4ebd-82fb-b6e582472e3a" />
-- 2번 Owner lastName을 이용한 조회
+- 2번 Owner lastName을 이용한 조회 (/owners)
   <br>
   <img width="700" alt = "image" src= "https://github.com/user-attachments/assets/214a3404-d5d8-4821-800b-46512ad7ebae" />
-- 3번 Owner 수정
+- 3번 Owner 수정 (~/owners/[ownerId]/edit)
   <br>
   <img width="700" alt = "image" src= "https://github.com/user-attachments/assets/da676325-2a8e-4ed8-9418-10d8f44d4306" />
-- 4번 owner 추가
+- 4번 owner 추가 (~/owners/new)
   <br>
   <img width="700" alt = "image" src= "https://github.com/user-attachments/assets/8e368635-f066-4780-8dbe-8c78c24ca8a5" />
 
 
 
 ## 4. pet page
-- 1번 owner의 pet 조회
+- 1번 owner의 pet 조회 (~/pet/[ownerId])
 <img width="1435" alt="image" src="https://github.com/user-attachments/assets/bb8299a5-4251-4737-9a23-05922ba3ac8d" />
 
-- pet 정보 수정
+- pet 정보 수정 (~/pet/[ownerId])
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/9d53bfb1-3e05-4e2e-8e6d-840ae8172625" />
 
-- pet 추가
+- pet 추가 (~/pet/[ownerId])
 <img width="1435" alt="image" src="https://github.com/user-attachments/assets/69b33c85-77b8-4baf-82c0-cf54e6f2890c" />
 
-- pet Type 조회
+- pet Type 조회 (~/pet/[ownerId]) 
 <img width="1427" alt="image" src="https://github.com/user-attachments/assets/b45bea55-9f04-40f9-ad7f-aa2db86f7307" />
 
