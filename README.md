@@ -36,13 +36,13 @@
 - 3번 Owner 수정
 - 
   <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/08d7fe15-f773-4937-be86-12743531ec83" />
-  
+  <br>
   <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/43761fd5-3c86-4a53-8f5a-ddad3fcbb496" />
 
 - 4번 owner 추가
 - 
   <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/f7c5c2d0-1fd7-4ba2-806f-a85ad4a0a4f0" />
-  
+  <br>
   <img width="400" alt = "image" src= "https://github.com/user-attachments/assets/f2aaa92d-0a2d-4b12-b2ab-3f0e6730957e" />
 
 
