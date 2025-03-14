@@ -30,15 +30,12 @@
 - 1번 Owner 전체 조회
   <br>
   <img width="700" alt = "image" src= "https://github.com/user-attachments/assets/580ccdf1-3eee-4ebd-82fb-b6e582472e3a" />
-
 - 2번 Owner lastName을 이용한 조회
   <br>
   <img width="700" alt = "image" src= "https://github.com/user-attachments/assets/214a3404-d5d8-4821-800b-46512ad7ebae" />
-
 - 3번 Owner 수정
   <br>
   <img width="700" alt = "image" src= "https://github.com/user-attachments/assets/da676325-2a8e-4ed8-9418-10d8f44d4306" />
-
 - 4번 owner 추가
   <br>
   <img width="700" alt = "image" src= "https://github.com/user-attachments/assets/8e368635-f066-4780-8dbe-8c78c24ca8a5" />
